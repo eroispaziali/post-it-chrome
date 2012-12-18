@@ -1,0 +1,17 @@
+{ 
+	"name" : "Post-it",
+	"manifest_version"	: 2,
+  	"content_scripts": [{
+      "matches": ["http://www.ilpost.it/*"],
+      "js": ["js/jquery-1.8.2.min.js", "js/background.js"]
+    }],
+  	"description" : "Estensione non ufficiale per i lettori de Il Post. Quando ti trovi su una pagina della categoria post-it apre direttamente la notizia.",
+ 	"homepage_url": "http://twitter.com/eroispaziali",
+  	"icons" : { 
+ 	 		"128" 	: "img/ico-post-twitter_bigger.gif",
+			"16" 	: "img/ico-post-twitter_bigger.gif",
+			"48" 	: "img/ico-post-twitter_bigger.gif"
+	},
+  	"version" 			: "0.0.1",
+  	"offline_enabled"	: false
+}
